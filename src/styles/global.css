@@ -1,0 +1,94 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 🔤 YOUR CUSTOM FONTS */
+@font-face {
+  font-family: 'Heading';
+  src: url('../assets/fonts/Heading.ttf');
+}
+
+@font-face {
+  font-family: 'Paragraph';
+  src: url('../assets/fonts/Paragraph.ttf');
+}
+
+@font-face {
+  font-family: 'Navbar';
+  src: url('../assets/fonts/Navbar.ttf');
+}
+
+/* BASE */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Paragraph', sans-serif;
+  overflow-x: hidden;
+}
+
+/* HEADINGS (your cinematic feel comes from this) */
+h1, h2, h3 {
+  font-family: 'Heading';
+  letter-spacing: 2px;
+}
+
+/* TEXT */
+p {
+  font-family: 'Paragraph';
+  line-height: 1.8;
+  opacity: 0.85;
+}
+/* ────────────────────────────────────────────
+   GRADIENT TEXT UTILITIES
+   Usage: add className="gradient-text" to any h1/h2/span
+   ──────────────────────────────────────────── */
+
+/* For light backgrounds (grey/white pages) */
+.gradient-text {
+  background: linear-gradient(90deg, #2d3748 0%, #718096 50%, #2d3748 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* For dark backgrounds (black pages) */
+.gradient-text-silver {
+  background: linear-gradient(90deg, #e2e8f0 0%, #94a3b8 60%, #e2e8f0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Purple-blue accent (labels, tags) */
+.gradient-text-accent {
+  background: linear-gradient(90deg, #a78bfa 0%, #60a5fa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Gold/warm (for special callouts) */
+.gradient-text-gold {
+  background: linear-gradient(90deg, #f59e0b 0%, #fde68a 50%, #f59e0b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/*
+  HOW TO USE IN YOUR OWN JSX:
+  ─────────────────────────────
+  <h1>The World <span className="gradient-text">framed my way.</span></h1>
+  <h2 className="gradient-text-silver">Body of Work</h2>
+  <span className="gradient-text-accent">BIO</span>
+
+  HOW IT WORKS:
+  ─────────────────────────────
+  background: linear-gradient(...)   ← defines the colour strip
+  background-clip: text              ← clips the gradient to letter shapes
+  -webkit-text-fill-color: transparent ← makes the solid colour invisible
+  Result: the text shows the gradient through it.
+*/
