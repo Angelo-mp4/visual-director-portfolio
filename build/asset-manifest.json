@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.3610cdca.css",
-    "main.js": "/static/js/main.f12aa02e.js",
+    "main.js": "/static/js/main.c39d07a0.js",
     "static/media/concert-placeholder.jpeg": "/static/media/concert-placeholder.98a6e7867e56fda2a37a.jpeg",
     "static/media/Paragraph.ttf": "/static/media/Paragraph.87c697b8dc2cbbfe349f.ttf",
     "static/media/Navbar.ttf": "/static/media/Navbar.6e816f786a7f97793401.ttf",
     "static/media/Heading.ttf": "/static/media/Heading.2b71c80f461a08dc4d30.ttf",
     "index.html": "/index.html",
     "main.3610cdca.css.map": "/static/css/main.3610cdca.css.map",
-    "main.f12aa02e.js.map": "/static/js/main.f12aa02e.js.map"
+    "main.c39d07a0.js.map": "/static/js/main.c39d07a0.js.map"
   },
   "entrypoints": [
     "static/css/main.3610cdca.css",
-    "static/js/main.f12aa02e.js"
+    "static/js/main.c39d07a0.js"
   ]
 }
