@@ -68,18 +68,24 @@ function Contact() {
     return next;
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const errs = validate();
-    if (Object.keys(errs).length) { setErrors(errs); return; }
+  const handleSubmit = async (e) => {
+  e.preventDefault();
+  const errs = validate();
+  if (Object.keys(errs).length) { setErrors(errs); return; }
 
-    // In production: replace this with a real form service
-    // e.g. Formspree, EmailJS, or your own backend
-    console.log("Form submitted:", form);
+  const response = await fetch("https://formspree.io/f/mlgoqnjg", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(form),
+  });
+
+  if (response.ok) {
     setSubmitted(true);
     setForm(INITIAL_FORM);
-  };
-
+  } else {
+    alert("Something went wrong. Try emailing directly.");
+  }
+};
   return (
     <div className="contact">
       <div className="contact-bg-text" aria-hidden>CONTACT</div>
