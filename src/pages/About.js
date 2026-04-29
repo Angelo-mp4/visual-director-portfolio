@@ -1,42 +1,6 @@
 import React from "react";
 import "../styles/about.css";
 
-const SKILL_CATEGORIES = [
-  {
-    label: "Software",
-    skills: [
-      "DaVinci Resolve",
-      "Adobe Premiere Pro",
-      "Adobe After Effects",
-      "Adobe Lightroom",
-      "Photoshop",
-      "Figma",
-    ],
-  },
-  {
-    label: "Production",
-    skills: [
-      "Cinematography",
-      "Video Editing",
-      "Color Grading",
-      "Sound Design",
-      "Motion Graphics",
-      "Concert Photography",
-    ],
-  },
-  {
-    label: "Strengths",
-    skills: [
-      "Instinct-driven shooting",
-      "Fast turnaround",
-      "Full post-production pipeline",
-      "Visual storytelling",
-      "Human-touch over automation",
-      "Immersive editing style",
-    ],
-  },
-];
-
 function About() {
   return (
     <div className="about">
