@@ -1,8 +1,6 @@
 import React from "react";
-import SkillsCard from "../components/SkillsCard";
 import "../styles/about.css";
 
-// Skills data passed as PROPS to SkillsCard
 const SKILL_CATEGORIES = [
   {
     label: "Software",
@@ -43,8 +41,23 @@ function About() {
   return (
     <div className="about">
 
-      {/* ── LEFT COLUMN: Bio blocks ── */}
+      {/* Portrait — absolutely positioned, bleeds into right */}
+      <div className="about-portrait-wrap">
+        <img
+          src="/images/portrait.png"
+          alt="Angelo Ben Charles"
+          className="about-portrait"
+          onError={(e) => {
+            e.target.style.display = "none";
+            e.target.nextSibling.style.display = "flex";
+          }}
+        />
+        <div className="about-portrait-fallback" />
+      </div>
+
+      {/* Left content column */}
       <div className="about-bio-section">
+
         <div className="bio-block">
           <span className="bio-label">BIO</span>
           <p>
@@ -74,40 +87,12 @@ function About() {
             shaped through a deliberate balance of instinct and craft —
             using cinematography, editing, motion graphics, color
             grading, sound design and photography as interconnected
-            tools. I focus on creating work that feels immersive,
-            intentional, and difficult to ignore.
+            tools. Fluent in DaVinci Resolve, Adobe Premiere Pro, After
+            Effects, Lightroom, Photoshop, and Figma, I focus on work
+            that feels immersive, intentional, and difficult to ignore.
           </p>
         </div>
-
-        {/* SkillsCard is a CLASS COMPONENT — receives categories as PROPS */}
-        <div className="bio-block bio-block--skills">
-          <span className="bio-label">SKILLS</span>
-          <SkillsCard categories={SKILL_CATEGORIES} />
-        </div>
       </div>
-
-      {/* ── RIGHT COLUMN: Portrait ── */}
-      <div className="about-portrait-wrap">
-        {/*
-          To use your actual photo:
-          1. Put the image in /public/images/portrait.jpg
-          2. Change the <img> src below to "/images/portrait.jpg"
-        */}
-        <img
-          src="/images/me.webp"
-          alt="Angelo Ben Charles"
-          className="about-portrait"
-          onError={(e) => {
-            // Fallback if image not found yet
-            e.target.style.display = "none";
-            e.target.nextSibling.style.display = "flex";
-          }}
-        />
-        <div className="about-portrait-fallback">
-          <span>A</span>
-        </div>
-      </div>
-
     </div>
   );
 }
