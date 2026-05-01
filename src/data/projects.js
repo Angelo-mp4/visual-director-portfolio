@@ -143,13 +143,13 @@ const projects = [
     title: "Seedhe Maut — IIT Bombay MoodIndigo",
     category: "Concert",
     isPhotoSet: true,
-    cover: { src: "/images/SMX/smx-cover.jpeg" },  // put your best shot here as cover
+    cover: { src: "/images/SMX/smx-cover.jpg" },  // put your best shot here as cover
     photos: [
-      { src: "/images/SMX/smx-1.jpeg"},
-      { src: "/images/SMX/smx-2.jpeg"},
-      { src: "/images/SMX/smx-3.jpeg"},
-      { src: "/images/SMX/smx-4.jpeg"},
-      { src: "/images/SMX/smx-5.jpeg"}
+      { src: "/images/SMX/smx-1.jpg"},
+      { src: "/images/SMX/smx-2.jpg"},
+      { src: "/images/SMX/smx-3.jpg"},
+      { src: "/images/SMX/smx-4.jpg"},
+      { src: "/images/SMX/smx-5.jpg"}
       // add more: { src: "/images/SMX/smx-4.jpg" }, ...
     ],
   },
@@ -158,13 +158,13 @@ const projects = [
     title: "Armaan Malik — NITTE Glamfest",
     category: "Concert",
     isPhotoSet: true,
-    cover: { src: "/images/AM/AM-cover.jpeg" },
+    cover: { src: "/images/AM/AM-cover.jpg" },
     photos: [
-      { src: "/images/AM/armaan-1.jpeg" },
-      { src: "/images/AM/armaan-2.jpeg" },
-      { src: "/images/AM/armaan-3.jpeg" },
-      { src: "/images/AM/armaan-4.jpeg" },
-      { src: "/images/AM/armaan-5.jpeg" }
+      { src: "/images/AM/armaan-1.jpg" },
+      { src: "/images/AM/armaan-2.jpg" },
+      { src: "/images/AM/armaan-3.jpg" },
+      { src: "/images/AM/armaan-4.jpg" },
+      { src: "/images/AM/armaan-5.jpg" }
     ],
   },
   {
@@ -172,12 +172,12 @@ const projects = [
     title: "Thaman S — VIT Vellore Riviera 2026",
     category: "Concert",
     isPhotoSet: true,
-    cover: { src: "/images/Thaman/thaman-cover.jpeg" },
+    cover: { src: "/images/Thaman/thaman-cover.jpg" },
     photos: [
-      { src: "/images/Thaman/thaman-1.jpeg" },
-      { src: "/images/Thaman/thaman-2.jpeg" },
-      { src: "/images/Thaman/thaman-3.jpeg" },
-      { src: "/images/Thaman/thaman-4.jpeg" }
+      { src: "/images/Thaman/thaman-1.jpg" },
+      { src: "/images/Thaman/thaman-2.jpg" },
+      { src: "/images/Thaman/thaman-3.jpg" },
+      { src: "/images/Thaman/thaman-4.jpg" }
     ],
   },
 
