@@ -60,6 +60,12 @@ const projects = [
   },
   {
     id: 7,
+    title: "Real Estate - Motion Graphics",
+    category: "Commercial",
+    video: "https://www.youtube.com/embed/xn9llMiOBl0",
+  },
+  {
+    id: 8,
     title: "DJ Paroma - Hype Reel",
     category: "Commercial",
     video: "https://www.youtube.com/embed/TgYkTjqNgd8",
@@ -67,43 +73,43 @@ const projects = [
 
   // ── COLLABORATED ────────────────────────────────────
   {
-    id: 8,
+    id: 9,
     title: "Life Is Good - Concept Video",
     category: "Collaborated",
     video: "https://www.youtube.com/embed/lZIn5rxpWaQ",
   },
   {
-    id: 9,
+    id: 10,
     title: "ICON - Concept Video",
     category: "Collaborated",
     video: "https://www.youtube.com/embed/Z3JDS-9gQ-4",
   },
   {
-    id: 10,
+    id: 11,
     title: "Vimaanas - Hype Reel",
     category: "Collaborated",
     video: "https://www.youtube.com/embed/lJkEWwRRvnM",
   },
   {
-    id: 11,
+    id: 12,
     title: "Onam Hypereel - 1",
     category: "Collaborated",
     video: "https://www.youtube.com/embed/IdaKzEBmy2o",
   },
   {
-    id: 12,
+    id: 13,
     title: "Onam Hypereel - 2",
     category: "Collaborated",
     video: "https://www.youtube.com/embed/Fj2XBd16Cik",
   },
   {
-    id: 13,
+    id: 14,
     title: "Cryptic Hunt - App Reveal",
     category: "Collaborated",
     video: "https://www.youtube.com/embed/OVt1Ua6fKNY",
   },
   {
-    id: 14,
+    id: 15,
     title: "Inspiher - Hype Reel",
     category: "Collaborated",
     video: "https://www.youtube.com/embed/Wt-K6vpnW80",
@@ -111,25 +117,25 @@ const projects = [
 
   // ── INDEPENDENT ─────────────────────────────────────
   {
-    id: 15,
+    id: 16,
     title: "Alright - Motion Graphics",
     category: "Independent",
     video: "https://www.youtube.com/embed/LM-sQdJPjKE",
   },
   {
-    id: 16,
+    id: 17,
     title: "Run It Up - Motion Graphics",
     category: "Independent",
     video: "https://www.youtube.com/embed/RlT6bWfN2ik",
   },
   {
-    id: 17,
+    id: 18,
     title: "Mirage - Dance Video",
     category: "Independent",
     video: "https://www.youtube.com/embed/752-ulMnxKE",
   },
   {
-    id: 18,
+    id: 19,
     title: "Pavizhamalli - Concept Video",
     category: "Independent",
     video: "https://www.youtube.com/embed/6RVDjhH1fx0",
@@ -139,7 +145,7 @@ const projects = [
   // For photo sets: add a `photos` array with { src, caption }
   // Put your images in /public/images/ and reference them as "/images/filename.jpg"
   {
-    id: 19,
+    id: 20,
     title: "Seedhe Maut — IIT Bombay MoodIndigo",
     category: "Concert",
     isPhotoSet: true,
@@ -154,7 +160,7 @@ const projects = [
     ],
   },
   {
-    id: 20,
+    id: 21,
     title: "Armaan Malik — NITTE Glamfest",
     category: "Concert",
     isPhotoSet: true,
@@ -168,7 +174,7 @@ const projects = [
     ],
   },
   {
-    id: 21,
+    id: 22,
     title: "Thaman S — VIT Vellore Riviera 2026",
     category: "Concert",
     isPhotoSet: true,
@@ -183,7 +189,7 @@ const projects = [
 
   // ── POSTER DESIGNS ──────────────────────────────────
   {
-    id: 22,
+    id: 23,
     title: "Poster Designs",
     category: "Poster",
     isPhotoSet: true,
